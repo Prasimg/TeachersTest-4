@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Form from "./components/Form";
+import Navbar from "./components/Navbar";
+import React from "react";
+// import ReactDOM from 'react-dom'
+// import axios from "axios";
+import Hero from "./components/Hero";
+import Canvas from "./components/Canvas";
+import About from "./components/About";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Navbar />
+            <Hero />
+            <Form />
+            <Canvas width={700} height={500} />
+            <About />
+        </div>
+    );
 }
 
 export default App;
