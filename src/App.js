@@ -6,6 +6,7 @@ import React from "react";
 import Hero from "./components/Hero";
 import Canvas from "./components/Canvas";
 import About from "./components/About";
+import Footer from "./components/Footer";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             <Form />
             <Canvas width={700} height={500} />
             <About />
+            <Footer />
         </div>
     );
 }
