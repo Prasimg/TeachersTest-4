@@ -6,7 +6,7 @@ import Mamtha from "./images/Mamtha.png";
 
 const About = () => {
     return (
-        <div id="about" className="flex ">
+        <div id="about" className="flex mb-6">
             <div className="max-w-[1240px] mx-auto grid lg:grid-cols-4 gap-6">
                 <div className="bg-indigo-600 w-full border flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
                     <a href="#!">
